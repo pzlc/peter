@@ -1,4 +1,4 @@
-FROM pzlc/payara5:v5.2020.4-1.fc
+FROM pzlc/payara5:v5.2020.5-1.fc
 RUN dnf upgrade --refresh --assumeyes
 RUN rm --recursive --force ${PAYARAHOME}/glassfish/domains/*
 
